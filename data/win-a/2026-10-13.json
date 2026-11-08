@@ -1,0 +1,81 @@
+{
+  "ccusageVersion": "20.0.48",
+  "collectedAt": "2026-11-08T03:48:31Z",
+  "date": "2026-10-13",
+  "host": "win-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 14120934,
+      "cacheRead": 529134378,
+      "costUSD": 185.10288,
+      "input": 6284,
+      "models": {
+        "claude-fable-5-1": {
+          "cacheCreation": 310061,
+          "cacheRead": 2938959,
+          "costUSD": 6.442152,
+          "input": 740,
+          "output": 36485,
+          "total": 3286245
+        },
+        "claude-opus-5-5": {
+          "cacheCreation": 8129671,
+          "cacheRead": 370238668,
+          "costUSD": 143.350407,
+          "input": 3234,
+          "output": 849749,
+          "total": 379221322
+        },
+        "claude-sonnet-5-5": {
+          "cacheCreation": 5681202,
+          "cacheRead": 155956751,
+          "costUSD": 35.310321,
+          "input": 2310,
+          "output": 449282,
+          "total": 162089545
+        }
+      },
+      "output": 1335516,
+      "total": 544597112
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 31412096,
+      "costUSD": 12.511083,
+      "input": 2821448,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 516864,
+          "input": 283149,
+          "modelNameIsFallback": true,
+          "output": 3113,
+          "reasoningOutput": 1501,
+          "total": 803126
+        },
+        "gpt-6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 2045056,
+          "input": 95087,
+          "output": 11402,
+          "reasoningOutput": 7572,
+          "total": 2151545
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 28850176,
+          "input": 2443212,
+          "modelNameIsFallback": true,
+          "output": 242488,
+          "reasoningOutput": 169874,
+          "total": 31535876
+        }
+      },
+      "output": 257003,
+      "reasoningOutput": 178947,
+      "total": 34490547
+    }
+  },
+  "status": "final",
+  "timezone": "America/Toronto"
+}

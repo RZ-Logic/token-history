@@ -1,0 +1,90 @@
+{
+  "ccusageVersion": "20.0.48",
+  "collectedAt": "2026-11-08T03:48:31Z",
+  "date": "2026-10-11",
+  "host": "win-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 17993758,
+      "cacheRead": 628936400,
+      "costUSD": 263.999332,
+      "input": 12882,
+      "models": {
+        "claude-fable-5-1": {
+          "cacheCreation": 1733156,
+          "cacheRead": 25568825,
+          "costUSD": 36.486164,
+          "input": 6624,
+          "output": 123218,
+          "total": 27431823
+        },
+        "claude-opus-5": {
+          "cacheCreation": 761800,
+          "cacheRead": 1518297,
+          "costUSD": 8.447029,
+          "input": 6,
+          "output": 2794,
+          "total": 2282897
+        },
+        "claude-opus-5-5": {
+          "cacheCreation": 13652017,
+          "cacheRead": 496982403,
+          "costUSD": 203.115992,
+          "input": 5128,
+          "output": 1153073,
+          "total": 511792621
+        },
+        "claude-sonnet-5-5": {
+          "cacheCreation": 1846785,
+          "cacheRead": 104866875,
+          "costUSD": 15.950148,
+          "input": 1124,
+          "output": 84425,
+          "total": 106799209
+        }
+      },
+      "output": 1363510,
+      "total": 648306550
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 10082432,
+      "costUSD": 3.992873,
+      "input": 974139,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 56064,
+          "input": 61593,
+          "modelNameIsFallback": true,
+          "output": 797,
+          "reasoningOutput": 489,
+          "total": 118454
+        },
+        "gpt-6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 2993280,
+          "input": 83363,
+          "modelNameIsFallback": true,
+          "output": 18662,
+          "reasoningOutput": 10061,
+          "total": 3095305
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 7033088,
+          "input": 829183,
+          "modelNameIsFallback": true,
+          "output": 66480,
+          "reasoningOutput": 32649,
+          "total": 7928751
+        }
+      },
+      "output": 85939,
+      "reasoningOutput": 43199,
+      "total": 11142510
+    }
+  },
+  "status": "final",
+  "timezone": "America/Toronto"
+}

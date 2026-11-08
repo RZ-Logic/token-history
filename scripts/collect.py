@@ -90,9 +90,18 @@ def today_in(tz_name):
 
         return dt.datetime.now(ZoneInfo(tz_name)).date()
     except Exception:
+        pass
+    try:
         env = dict(os.environ, TZ=tz_name)
         out = subprocess.check_output(["date", "+%Y-%m-%d"], env=env).decode().strip()
         return dt.date.fromisoformat(out)
+    except Exception:
+        # Windows has no IANA tz database (unless the tzdata package is
+        # installed) and no `date` binary on a plain PATH. Fall back to the
+        # machine's local date: right whenever the configured timezone is the
+        # machine's own, which is the normal single-machine setup.
+        log("no tz database for {!r}; using this machine's local date".format(tz_name))
+        return dt.date.today()
 
 
 def daterange(start, end):

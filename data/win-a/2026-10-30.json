@@ -1,0 +1,56 @@
+{
+  "ccusageVersion": "20.0.48",
+  "collectedAt": "2026-11-08T03:48:31Z",
+  "date": "2026-10-30",
+  "host": "win-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 19864542,
+      "cacheRead": 612820878,
+      "costUSD": 295.318647,
+      "input": 6380,
+      "models": {
+        "claude-opus-5-5": {
+          "cacheCreation": 19864542,
+          "cacheRead": 612820878,
+          "costUSD": 295.318647,
+          "input": 6380,
+          "output": 3284331,
+          "total": 635976131
+        }
+      },
+      "output": 3284331,
+      "total": 635976131
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 56722688,
+      "costUSD": 10.696533,
+      "input": 1155646,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 4116480,
+          "input": 360848,
+          "modelNameIsFallback": true,
+          "output": 6025,
+          "reasoningOutput": 1985,
+          "total": 4483353
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 52606208,
+          "input": 794798,
+          "output": 214412,
+          "reasoningOutput": 105585,
+          "total": 53615418
+        }
+      },
+      "output": 220437,
+      "reasoningOutput": 107570,
+      "total": 58098771
+    }
+  },
+  "status": "final",
+  "timezone": "America/Toronto"
+}

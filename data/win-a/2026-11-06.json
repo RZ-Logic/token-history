@@ -1,0 +1,80 @@
+{
+  "ccusageVersion": "20.0.48",
+  "collectedAt": "2026-11-08T03:48:31Z",
+  "date": "2026-11-06",
+  "host": "win-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 25707371,
+      "cacheRead": 568349948,
+      "costUSD": 469.095665,
+      "input": 20720,
+      "models": {
+        "claude-fable-5-1": {
+          "cacheCreation": 8133277,
+          "cacheRead": 132637533,
+          "costUSD": 212.937373,
+          "input": 15952,
+          "output": 1234588,
+          "total": 142021350
+        },
+        "claude-opus-4-7": {
+          "cacheCreation": 156379,
+          "cacheRead": 945044,
+          "costUSD": 2.106282,
+          "input": 59,
+          "output": 2787,
+          "total": 1104269
+        },
+        "claude-opus-5-5": {
+          "cacheCreation": 17140803,
+          "cacheRead": 433951102,
+          "costUSD": 252.796448,
+          "input": 4701,
+          "output": 3700664,
+          "total": 454797270
+        },
+        "claude-sonnet-5-5": {
+          "cacheCreation": 276912,
+          "cacheRead": 816269,
+          "costUSD": 1.255561,
+          "input": 8,
+          "output": 6627,
+          "total": 1099816
+        }
+      },
+      "output": 4944666,
+      "total": 599022705
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 19421568,
+      "costUSD": 4.617073,
+      "input": 849495,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 35968,
+          "input": 32942,
+          "modelNameIsFallback": true,
+          "output": 282,
+          "reasoningOutput": 160,
+          "total": 69192
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 19385600,
+          "input": 816553,
+          "output": 93899,
+          "reasoningOutput": 32540,
+          "total": 20296052
+        }
+      },
+      "output": 94181,
+      "reasoningOutput": 32700,
+      "total": 20365244
+    }
+  },
+  "status": "final",
+  "timezone": "America/Toronto"
+}

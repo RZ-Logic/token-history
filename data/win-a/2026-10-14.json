@@ -1,0 +1,81 @@
+{
+  "ccusageVersion": "20.0.48",
+  "collectedAt": "2026-11-08T03:48:31Z",
+  "date": "2026-10-14",
+  "host": "win-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 5868577,
+      "cacheRead": 62913175,
+      "costUSD": 48.877514,
+      "input": 780,
+      "models": {
+        "claude-fable-5-1": {
+          "cacheCreation": 63662,
+          "cacheRead": 0,
+          "costUSD": 1.448795,
+          "input": 2,
+          "output": 13060,
+          "total": 76724
+        },
+        "claude-opus-5-5": {
+          "cacheCreation": 3514528,
+          "cacheRead": 29196099,
+          "costUSD": 36.5504,
+          "input": 230,
+          "output": 137518,
+          "total": 32848375
+        },
+        "claude-sonnet-5-5": {
+          "cacheCreation": 2290387,
+          "cacheRead": 33717076,
+          "costUSD": 10.87832,
+          "input": 548,
+          "output": 116890,
+          "total": 36124901
+        }
+      },
+      "output": 267468,
+      "total": 69050000
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 24337920,
+      "costUSD": 11.543804,
+      "input": 2339699,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 606720,
+          "input": 127728,
+          "modelNameIsFallback": true,
+          "output": 2218,
+          "reasoningOutput": 1068,
+          "total": 736666
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 1128448,
+          "input": 129124,
+          "output": 6535,
+          "reasoningOutput": 3545,
+          "total": 1264107
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 22602752,
+          "input": 2082847,
+          "modelNameIsFallback": true,
+          "output": 123319,
+          "reasoningOutput": 67928,
+          "total": 24808918
+        }
+      },
+      "output": 132072,
+      "reasoningOutput": 72541,
+      "total": 26809691
+    }
+  },
+  "status": "final",
+  "timezone": "America/Toronto"
+}

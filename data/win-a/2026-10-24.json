@@ -1,0 +1,81 @@
+{
+  "ccusageVersion": "20.0.48",
+  "collectedAt": "2026-11-08T03:48:31Z",
+  "date": "2026-10-24",
+  "host": "win-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 24062773,
+      "cacheRead": 712830049,
+      "costUSD": 370.47832,
+      "input": 8012,
+      "models": {
+        "claude-fable-5-1": {
+          "cacheCreation": 3306031,
+          "cacheRead": 20429876,
+          "costUSD": 74.742936,
+          "input": 3098,
+          "output": 520555,
+          "total": 24259560
+        },
+        "claude-haiku-5-5": {
+          "cacheCreation": 253077,
+          "cacheRead": 1107710,
+          "costUSD": 0.240106,
+          "input": 26,
+          "output": 63193,
+          "total": 1424006
+        },
+        "claude-opus-5-5": {
+          "cacheCreation": 15205658,
+          "cacheRead": 554474396,
+          "costUSD": 256.349265,
+          "input": 3956,
+          "output": 2221562,
+          "total": 571905572
+        },
+        "claude-sonnet-5-5": {
+          "cacheCreation": 5298007,
+          "cacheRead": 136818067,
+          "costUSD": 39.146012,
+          "input": 932,
+          "output": 983731,
+          "total": 143100737
+        }
+      },
+      "output": 3789041,
+      "total": 740689875
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 48064768,
+      "costUSD": 11.113416,
+      "input": 2245242,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 6312960,
+          "input": 583639,
+          "modelNameIsFallback": true,
+          "output": 11649,
+          "reasoningOutput": 3202,
+          "total": 6908248
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 41751808,
+          "input": 1661603,
+          "modelNameIsFallback": true,
+          "output": 229593,
+          "reasoningOutput": 62667,
+          "total": 43643004
+        }
+      },
+      "output": 241242,
+      "reasoningOutput": 65869,
+      "total": 50551252
+    }
+  },
+  "status": "final",
+  "timezone": "America/Toronto"
+}
