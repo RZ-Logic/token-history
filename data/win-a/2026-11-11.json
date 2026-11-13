@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-12T02:31:00Z",
+  "collectedAt": "2026-11-13T02:30:56Z",
   "date": "2026-11-11",
   "host": "win-a",
   "sources": {
     "claude": {
-      "cacheCreation": 13504258,
-      "cacheRead": 513161613,
-      "costUSD": 263.447583,
-      "input": 4056,
+      "cacheCreation": 13726817,
+      "cacheRead": 551212794,
+      "costUSD": 273.726311,
+      "input": 4216,
       "models": {
         "claude-fable-5-2": {
           "cacheCreation": 3316353,
@@ -19,37 +19,46 @@
           "total": 139711892
         },
         "claude-opus-5-5": {
-          "cacheCreation": 10187905,
-          "cacheRead": 377755981,
-          "costUSD": 163.628726,
-          "input": 3366,
-          "output": 1578540,
-          "total": 389525792
+          "cacheCreation": 10410464,
+          "cacheRead": 415807162,
+          "costUSD": 173.907454,
+          "input": 3526,
+          "output": 1622909,
+          "total": 427844061
         }
       },
-      "output": 2567757,
-      "total": 529237684
+      "output": 2612126,
+      "total": 567555953
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 24286336,
-      "costUSD": 9.011113,
-      "input": 2291749,
+      "cacheRead": 34679296,
+      "costUSD": 12.289604,
+      "input": 2820559,
       "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 34432,
+          "input": 27198,
+          "modelNameIsFallback": true,
+          "output": 304,
+          "reasoningOutput": 179,
+          "total": 61934
+        },
         "gpt-6.1-sol": {
           "cacheCreation": 0,
-          "cacheRead": 24286336,
-          "input": 2291749,
-          "output": 73487,
-          "reasoningOutput": 17260,
-          "total": 26651572
+          "cacheRead": 34644864,
+          "input": 2793361,
+          "output": 129687,
+          "reasoningOutput": 39459,
+          "total": 37567912
         }
       },
-      "output": 73487,
-      "reasoningOutput": 17260,
-      "total": 26651572
+      "output": 129991,
+      "reasoningOutput": 39638,
+      "total": 37629846
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "America/Toronto"
 }
