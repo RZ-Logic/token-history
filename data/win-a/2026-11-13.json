@@ -1,30 +1,30 @@
 {
-  "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-14T02:30:54Z",
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-15T02:31:04Z",
   "date": "2026-11-13",
   "host": "win-a",
   "sources": {
     "claude": {
-      "cacheCreation": 29298845,
-      "cacheRead": 975754349,
-      "costUSD": 463.019654,
-      "input": 104640,
+      "cacheCreation": 37170754,
+      "cacheRead": 1230168593,
+      "costUSD": 624.280055,
+      "input": 106303,
       "models": {
         "claude-fable-5-2": {
-          "cacheCreation": 3720035,
-          "cacheRead": 94292525,
-          "costUSD": 87.760003,
-          "input": 543,
-          "output": 479836,
-          "total": 98492939
+          "cacheCreation": 7709444,
+          "cacheRead": 235080762,
+          "costUSD": 188.560202,
+          "input": 1081,
+          "output": 1265237,
+          "total": 244056524
         },
         "claude-opus-5-5": {
-          "cacheCreation": 22896719,
-          "cacheRead": 785665337,
-          "costUSD": 351.203621,
-          "input": 6244,
-          "output": 3288306,
-          "total": 811856606
+          "cacheCreation": 26779219,
+          "cacheRead": 899291344,
+          "costUSD": 411.663824,
+          "input": 7369,
+          "output": 4137635,
+          "total": 930215567
         },
         "claude-sonnet-5-5": {
           "cacheCreation": 2682091,
@@ -35,8 +35,8 @@
           "total": 99148966
         }
       },
-      "output": 4340677,
-      "total": 1009498511
+      "output": 5975407,
+      "total": 1273421057
     },
     "codex": {
       "cacheCreation": 0,
@@ -58,6 +58,6 @@
       "total": 11557323
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "America/Toronto"
 }
