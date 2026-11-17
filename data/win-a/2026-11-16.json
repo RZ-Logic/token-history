@@ -1,0 +1,80 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-17T02:31:12Z",
+  "date": "2026-11-16",
+  "host": "win-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 22003843,
+      "cacheRead": 554624087,
+      "costUSD": 315.580907,
+      "input": 4251,
+      "models": {
+        "claude-fable-5-2": {
+          "cacheCreation": 1044842,
+          "cacheRead": 23888492,
+          "costUSD": 30.16999,
+          "input": 123,
+          "output": 283427,
+          "total": 25216884
+        },
+        "claude-opus-5-5": {
+          "cacheCreation": 20500140,
+          "cacheRead": 525871058,
+          "costUSD": 282.620585,
+          "input": 4096,
+          "output": 3172954,
+          "total": 549548248
+        },
+        "claude-sonnet-5-5": {
+          "cacheCreation": 458861,
+          "cacheRead": 4864537,
+          "costUSD": 2.790332,
+          "input": 32,
+          "output": 46837,
+          "total": 5370267
+        }
+      },
+      "output": 3503218,
+      "total": 580135399
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 25436800,
+      "costUSD": 8.470746,
+      "input": 1029513,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 445312,
+          "input": 108971,
+          "modelNameIsFallback": true,
+          "output": 1635,
+          "reasoningOutput": 744,
+          "total": 555918
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 860672,
+          "input": 139602,
+          "output": 14647,
+          "reasoningOutput": 7613,
+          "total": 1014921
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 24130816,
+          "input": 780940,
+          "output": 147408,
+          "reasoningOutput": 88945,
+          "total": 25059164
+        }
+      },
+      "output": 163690,
+      "reasoningOutput": 97302,
+      "total": 26630003
+    }
+  },
+  "status": "partial",
+  "timezone": "America/Toronto"
+}
